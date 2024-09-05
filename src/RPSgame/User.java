@@ -1,12 +1,12 @@
 package RPSgame;
 
 public class User {
-  private String Username;
-  private int Age;
+  private String username;
+  private int age;
   
-  public User(String Username,int Age) {
-	  this.Username=Username;
-	  this.Age=Age;
+  public User(String username,int Age) {
+	  this.username = username;
+	  this.age = age;
   }
 
 public String getUsername() {
@@ -18,16 +18,16 @@ public void setUsername(String username) {
 }
 
 public int getAge() {
-	return Age;
+	return age;
 }
 
 public void setAge(int age) {
-	Age = age;
+	age = age;
 }
 
 
-public void welcomename(String Username) {
-	System.out.println("User [Welcome " + Username + "]" + " YOU ARE PLAYING AGAINST THE COMPUTER");
+public void welcomeName(String username) {
+	System.out.println("User [Welcome " + username + "]" + " YOU ARE PLAYING AGAINST THE COMPUTER");
 }
   
 }
